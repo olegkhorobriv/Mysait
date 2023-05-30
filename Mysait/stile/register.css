@@ -1,0 +1,95 @@
+.box{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-form{
+    display: flex;
+    justify-content: space-between;
+}
+.register-login{
+    margin-right: 220px;
+}
+.register-form h1{
+    font-size: 26px;
+    text-align: center;
+}
+.register-form input[type = "text"],.register-form input[type = "password"],.register-form input[type = "email"]{
+
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 280px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.register-form input[type = "text"]:focus,.register-form input[type = "password"]:focus{
+
+    border-color: #2ecc71;
+}
+.register-form input[type = "submit"]{
+
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: .25s;
+    cursor: pointer;
+}
+.register-form input[type = "submit"]:hover{
+    background: #2ecc71;
+}
+.register-form select{
+
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 280px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.register-form select option{
+    border: none;
+    background-color: black;
+   color: white;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.box input[type = "submit"]{
+
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: .25s;
+    cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+    background: #2ecc71;
+}
+.title-register{
+    margin-top: 55px;
+    text-align: center;
+}
